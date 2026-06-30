@@ -8,11 +8,15 @@ package libros;
  *
  * @author Student
  */
-public class libro {
+public class libro extends informacion{
     protected int totalejemplares ;
     protected int ejemplaresdisponibles;
     protected String editorial;
     protected int numerodepaginas;
+
+    public libro(int codigo, String titulo, String sutor, String anioPublicacion, boolean disponibilidad) {
+        super(codigo, titulo, sutor, anioPublicacion, disponibilidad);
+    }
 
     public int getTotalejemplares() {
         return totalejemplares;

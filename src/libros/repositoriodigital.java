@@ -8,7 +8,7 @@ package libros;
  *
  * @author Student
  */
-public class repositoriodigital {
+public class repositoriodigital extends informacion {
     
     protected String formato;
     protected int Tamanio;
@@ -24,8 +24,10 @@ public class repositoriodigital {
     public void setFormato(String formato) {
         this.formato = formato;
     }
+    
+    
 
-    public repositoriodigital(String formato, int Tamanio) {
+    public repositoriodigital(String formato, int Tamanio, ) {
         this.formato = formato;
         this.Tamanio = Tamanio;
     }

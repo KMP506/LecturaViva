@@ -21,6 +21,10 @@ public class Usuario {
     protected String correo;
     protected String direccion;
 
+    public int getId() {
+        return id;
+    }
+    
     public String getNombreCompleto() {
         return nombreCompleto;
     }
