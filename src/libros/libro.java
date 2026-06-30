@@ -1,0 +1,41 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package libros;
+
+/**
+ *
+ * @author Student
+ */
+public class libro {
+    protected int totalejemplares ;
+    protected int ejemplaresdisponibles;
+    protected String editorial;
+    protected int numerodepaginas;
+
+    public int getTotalejemplares() {
+        return totalejemplares;
+    }
+
+    public int getEjemplaresdisponibles() {
+        return ejemplaresdisponibles;
+    }
+
+    public String getEditorial() {
+        return editorial;
+    }
+
+    public int getNumerodepaginas() {
+        return numerodepaginas;
+    }
+
+    public void setTotalejemplares(int totalejemplares) {
+        this.totalejemplares = totalejemplares;
+    }
+
+    public void setEjemplaresdisponibles(int ejemplaresdisponibles) {
+        this.ejemplaresdisponibles = ejemplaresdisponibles;
+    }
+    
+}
