@@ -82,7 +82,7 @@ public class Usuario {
     
   public String toString(){
       return  "Nombre: "+nombreCompleto +
-              "\nFecha de Nacimiento: "+fechaNacimiento +
+              "\nFecha de Nacimiento: "+ calcularEdad() +
               "\nTelefono: " + telefono +
               "\nCorreo: " + correo +
               "\nDireccion: "+ direccion;
