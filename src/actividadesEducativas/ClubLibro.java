@@ -13,7 +13,7 @@ import java.time.LocalTime;
  * @author Student
  */
 public class ClubLibro extends ActividadE {
-     public ClubLibro(String nombre, LocalDate fecha, LocalTime hora, int cupoMax, Usuario usuariosInscritos) {
+     public ClubLibro(String nombre, LocalDate fecha, LocalTime hora, int cupoMax[], Usuario usuariosInscritos) {
         super(nombre, fecha, hora, cupoMax, usuariosInscritos);
     }
 }

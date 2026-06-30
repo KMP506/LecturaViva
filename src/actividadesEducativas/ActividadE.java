@@ -15,7 +15,7 @@ public class ActividadE {
     protected String nombre;
     protected LocalDate fecha;
     protected LocalTime hora;
-    protected int cupoMax;
+    protected int cupoMax[];
     protected Usuario usuariosInscritos;
     
     public String getNombre(){
@@ -31,14 +31,14 @@ public class ActividadE {
     }
     
     public int getCupoMax(){
-        return this.cupoMax;
+        return this.cupoMax[50];
     }
     
     public Usuario getUsuariosInscritos(){
         return this.usuariosInscritos;
     }
     
-    public ActividadE(String nombre,LocalDate fecha,LocalTime hora,int cupoMax,Usuario usuariosInscritos){
+    public ActividadE(String nombre,LocalDate fecha,LocalTime hora,int cupoMax[],Usuario usuariosInscritos){
         this.nombre=nombre;
         this.fecha=fecha;
         this.hora=hora;
@@ -50,7 +50,7 @@ public class ActividadE {
         return "Nombre: "+nombre+
                 "\nFecha: "+fecha+
                 "\nHora: "+hora+
-                "\nCupos maximos: "+cupoMax+
+                "\nCupos maximos: "+cupoMax[50]+
                 "\nUsuarios inscritos: "+usuariosInscritos;
     }
     

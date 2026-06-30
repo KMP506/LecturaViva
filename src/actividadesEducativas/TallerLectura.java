@@ -4,7 +4,7 @@
  */
 package actividadesEducativas;
 
-import bibliotecas.Usuario;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import bibliotecas.Usuario;
@@ -20,7 +20,7 @@ public class TallerLectura extends ActividadE {
     
     
     
-    public TallerLectura(String nombre, LocalDate fecha, LocalTime hora, int cupoMax, Usuario[] usuariosInscritos) {
+    public TallerLectura(String nombre, LocalDate fecha, LocalTime hora, int cupoMax[], Usuario usuariosInscritos) {
         super(nombre, fecha, hora, cupoMax, usuariosInscritos);
     }
     
