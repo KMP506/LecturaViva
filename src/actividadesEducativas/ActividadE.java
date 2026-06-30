@@ -8,7 +8,11 @@ import bibliotecas.Usuario;
 import java.time.LocalDate;
 import java.time.LocalTime;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.Arrays;
+=======
+import bibliotecas.Usuario;
+>>>>>>> Kevin
 =======
 import bibliotecas.Usuario;
 >>>>>>> Kevin
