@@ -6,6 +6,7 @@ package actividadesEducativas;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import bibliotecas.Usuario;
 
 /**
  *
@@ -16,7 +17,7 @@ public class ActividadE {
     protected LocalDate fecha;
     protected LocalTime hora;
     protected int cupoMax;
-    protected Usuario usuariosInscritos[];
+    protected Usuario usuariosInscritos;
     
     public String getNombre(){
         return this.nombre;
