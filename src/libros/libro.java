@@ -38,4 +38,13 @@ public class libro {
         this.ejemplaresdisponibles = ejemplaresdisponibles;
     }
     
+    
+    public String ToString(){
+        return "TOTALejemplares: "+totalejemplares+
+                "\ndisponibles: "+ejemplaresdisponibles+
+                "\neditorial: "+editorial+
+                "\nnumpaginas: "+numerodepaginas
+               ;
+    }
+    
 }
