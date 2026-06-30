@@ -4,6 +4,7 @@
  */
 package actividadesEducativas;
 
+import bibliotecas.Usuario;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
