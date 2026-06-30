@@ -4,8 +4,10 @@
  */
 package actividadesEducativas;
 
+import bibliotecas.Usuario;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.Arrays;
 
 /**
  *
@@ -34,11 +36,11 @@ public class ActividadE {
         return this.cupoMax;
     }
     
-    public Usuario getUsuariosInscritos(){
+    public Usuario[] getUsuariosInscritos(){
         return this.usuariosInscritos;
     }
     
-    public ActividadE(String nombre,LocalDate fecha,LocalTime hora,int cupoMax,Usuario usuariosInscritos){
+    public ActividadE(String nombre,LocalDate fecha,LocalTime hora,int cupoMax,Usuario[] usuariosInscritos){
         this.nombre=nombre;
         this.fecha=fecha;
         this.hora=hora;
@@ -51,7 +53,7 @@ public class ActividadE {
                 "\nFecha: "+fecha+
                 "\nHora: "+hora+
                 "\nCupos maximos: "+cupoMax+
-                "\nUsuarios inscritos: "+usuariosInscritos;
+                "\nUsuarios inscritos: "+Arrays.toString(usuariosInscritos);
     }
     
 }
