@@ -7,7 +7,11 @@ package actividadesEducativas;
 import bibliotecas.Usuario;
 import java.time.LocalDate;
 import java.time.LocalTime;
+<<<<<<< HEAD
 import java.util.Arrays;
+=======
+import bibliotecas.Usuario;
+>>>>>>> Kevin
 
 /**
  *
@@ -18,7 +22,7 @@ public class ActividadE {
     protected LocalDate fecha;
     protected LocalTime hora;
     protected int cupoMax;
-    protected Usuario usuariosInscritos[];
+    protected Usuario usuariosInscritos;
     
     public String getNombre(){
         return this.nombre;
