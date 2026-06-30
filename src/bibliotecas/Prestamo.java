@@ -34,6 +34,7 @@ public class Prestamo {
         return fechaDevolucion;
     }
 
+    
     public LocalDate getFechaRealDevolucion() {
         return fechaRealDevolucion;
     }
